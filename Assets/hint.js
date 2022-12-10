@@ -8,7 +8,7 @@ function showHint(str) {
        return this.responseText;
       }
     };
-    xmlhttp.open("GET", "gethint.php?q=" + str, true);
+    xmlhttp.open("GET", "hintdataset.php?q=" + str, true);
     xmlhttp.send();
   }
 }
